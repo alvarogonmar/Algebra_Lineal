@@ -39,3 +39,8 @@ print("*"*50)
 # create a matrix of ones
 matrix = np.ones((3,3))
 print(matrix)
+
+print("*"*50)
+# look for rows columns and elements in a matrix
+matrix = np.arange(1,10,1).reshape(3,3) # matriz de 3x3 con numeros del 1 al 9
+print(matrix)
