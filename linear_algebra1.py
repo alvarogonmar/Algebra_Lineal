@@ -20,8 +20,11 @@ print(A, "\n")
 print("*"*50)
 # create a vector that is a range of numbers
 
-vector = np.arange(0, 10, 1) # inicio, donde se para, cuantos se salta
+vector = np.arange(0, 10, 2) # inicio, donde se para, cuantos se salta
 print(vector)
 
 vector = np.arange(9) # vector de 0 a 9
+print(vector)
+
+vector = vector.reshape(3,3) # convertir el vector en una matriz de 3x3
 print(vector)
