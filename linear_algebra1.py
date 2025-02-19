@@ -57,3 +57,18 @@ print(colt.T) # transpuesta de la columna (convertir columna en fila)
 
 element = matrix[0,0] # primer elemento
 print(element)
+
+# Agregrar 2 matrices
+print("Add two matrices")
+print("MatrixA")
+matrixA = np.ones((2,2))
+print(matrixA)
+print("*"*50)
+print("MatrixB")
+matrixB = np.array([[1, 2],
+              [3, 4]])
+print(matrixB)
+
+print("MatrixC")
+matrixC = matrixA + matrixB
+print(matrixC)
