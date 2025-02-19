@@ -30,3 +30,8 @@ vector = vector.reshape(3,3) # convertir el vector en una matriz de 3x3
 print(vector)
 
 print(vector.shape) # shape es un atributo que nos dice las dimensiones de la matriz
+
+print("*"*50)
+# create a matrix of zeros
+matrix = np.zeros((3,3))
+print(matrix)
