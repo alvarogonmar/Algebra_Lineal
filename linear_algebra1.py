@@ -35,3 +35,7 @@ print("*"*50)
 # create a matrix of zeros
 matrix = np.zeros((3,3))
 print(matrix)
+print("*"*50)
+# create a matrix of ones
+matrix = np.ones((3,3))
+print(matrix)
