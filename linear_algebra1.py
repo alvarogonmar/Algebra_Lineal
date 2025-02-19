@@ -51,3 +51,9 @@ print(row1)
 
 col1 = matrix[:,0] # primera columna (vertical)
 print(col1)
+
+colt = np.array([col1]) # convertir la columna en un array
+print(colt.T) # transpuesta de la columna (convertir columna en fila)
+
+element = matrix[0,0] # primer elemento
+print(element)
