@@ -16,3 +16,12 @@ print(A, "\n")
 A = np.array([[1.1+1j, 2],
              [3, 4]], dtype = complex) # complex array, dtype es el tipo de dato
 print(A, "\n")
+
+print("*"*50)
+# create a vector that is a range of numbers
+
+vector = np.arange(0, 10, 1) # inicio, donde se para, cuantos se salta
+print(vector)
+
+vector = np.arange(9) # vector de 0 a 9
+print(vector)
