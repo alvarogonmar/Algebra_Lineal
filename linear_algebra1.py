@@ -72,3 +72,8 @@ print(matrixB)
 print("MatrixC")
 matrixC = matrixA + matrixB
 print(matrixC)
+
+# Multiplicar matrices
+print("Multiply two matrices")
+matrixC = matrixA*matrixB
+print(matrixC)
