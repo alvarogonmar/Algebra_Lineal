@@ -44,3 +44,7 @@ print("*"*50)
 # look for rows columns and elements in a matrix
 matrix = np.arange(1,10,1).reshape(3,3) # matriz de 3x3 con numeros del 1 al 9
 print(matrix)
+print("*"*50)
+# rows
+row1 = matrix[0] # primera fila
+print(row1)
