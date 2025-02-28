@@ -3,3 +3,4 @@ n = int(input())
 quantities = []
 
 print("Por favor introduzca los valores")
+for index in range(n):
