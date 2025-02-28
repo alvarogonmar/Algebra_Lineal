@@ -9,3 +9,6 @@ for index in range(n):
 
 def prom(quantities):
     sum = 0
+    for quantity in quantities:
+        sum += quantity
+    return(sum / len(quantities))
