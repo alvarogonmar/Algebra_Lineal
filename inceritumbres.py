@@ -20,3 +20,4 @@ def x_minus_prom(quantities):
         differences.append(quantity - promedio)
     return (differences)
 
+def x_minus_prom_squared(quantities):
