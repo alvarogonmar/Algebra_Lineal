@@ -4,3 +4,5 @@ quantities = []
 
 print("Por favor introduzca los valores")
 for index in range(n):
+    number = float(input())
+    quantities.append(number)
