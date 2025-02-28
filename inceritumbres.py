@@ -16,3 +16,7 @@ def prom(quantities):
 def x_minus_prom(quantities):
     promedio = prom(quantities)
     differences = []
+    for quantity in quantities:
+        differences.append(quantity - promedio)
+    return (differences)
+
