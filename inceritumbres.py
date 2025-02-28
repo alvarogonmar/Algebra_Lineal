@@ -14,3 +14,5 @@ def prom(quantities):
     return(sum / len(quantities))
 
 def x_minus_prom(quantities):
+    promedio = prom(quantities)
+    differences = []
