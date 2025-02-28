@@ -8,3 +8,4 @@ for index in range(n):
     quantities.append(number)
 
 def prom(quantities):
+    sum = 0
