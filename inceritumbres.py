@@ -21,3 +21,5 @@ def x_minus_prom(quantities):
     return (differences)
 
 def x_minus_prom_squared(quantities):
+    differences = x_minus_prom(quantities)
+    squared = []
