@@ -12,3 +12,5 @@ def prom(quantities):
     for quantity in quantities:
         sum += quantity
     return(sum / len(quantities))
+
+def x_minus_prom(quantities):
