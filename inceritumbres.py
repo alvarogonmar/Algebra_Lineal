@@ -37,3 +37,5 @@ def standard_deviation(quantities):
 def incertidumbre_A(quantities):
     incertidumbre = standard_deviation(quantities) / (len(quantities) ** 0.5)
     return(round(incertidumbre, 2))
+
+def incertidumbre_B():
