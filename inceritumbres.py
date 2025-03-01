@@ -23,9 +23,9 @@ def x_minus_prom(quantities):
 def x_minus_prom_squared(quantities):
     differences = x_minus_prom(quantities)
     squared = []
-    for square in squared:
-        sum += square
-    return (sum)
+    for difference in differences:
+        squared.append(difference ** 2)
+    return (squared)
 
 def sum_total(quantities):
     squared = x_minus_prom_squared(quantities)
