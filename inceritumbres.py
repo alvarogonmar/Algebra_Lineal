@@ -51,3 +51,5 @@ def incertidumbre_B():
     error = incertidumbre / 2
     incertidumbre = error / (3 ** 0.5)
     return(round(incertidumbre, 2))
+
+def incertidumbre_estandar(quantities, incertidumbre_b):
