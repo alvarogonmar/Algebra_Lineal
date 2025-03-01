@@ -60,3 +60,5 @@ def incertidumbre_estandar(quantities, incertidumbre_b):
 def resultado():
     incertidumbre_a = incertidumbre_A(quantities)
     incertidumbre_b = incertidumbre_B()
+    incertidumbre_est = incertidumbre_estandar(quantities, incertidumbre_b)
+    promedio = round(prom(quantities), 2)
