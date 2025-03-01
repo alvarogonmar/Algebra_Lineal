@@ -64,3 +64,7 @@ def resultado():
     promedio = round(prom(quantities), 2)
     print("Incertidumbre A:", incertidumbre_a)
     print("Incertidumbre B:", incertidumbre_b)
+    print("Incertidumbre Estándar:", incertidumbre_est)
+    print("Resultado:", promedio, "±", incertidumbre_est)
+
+resultado()
