@@ -54,3 +54,4 @@ def incertidumbre_B():
 
 def incertidumbre_estandar(quantities, incertidumbre_b):
     incertidumbre_a = incertidumbre_A(quantities)
+    incertidumbre_estandar = (incertidumbre_a ** 2 + incertidumbre_b ** 2) ** 0.5
