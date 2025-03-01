@@ -41,3 +41,6 @@ def incertidumbre_A(quantities):
 def incertidumbre_B():
     print("Por favor introduzca el error")
     incertidumbre = float(input())
+    error = incertidumbre / 2
+    incertidumbre = error / (3 ** 0.5)
+    return(round(incertidumbre, 2))
