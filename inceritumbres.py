@@ -27,6 +27,9 @@ def x_minus_prom_squared(quantities):
         sum += square
     return (sum)
 
+def sum_total(quantities):
+
+
 def sum_total_divided_by_n_minus_1(quantities):
     sum = sum_total(quantities)
     return (sum / (len(quantities) - 1))
