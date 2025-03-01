@@ -53,3 +53,4 @@ def incertidumbre_B():
     return(round(incertidumbre, 2))
 
 def incertidumbre_estandar(quantities, incertidumbre_b):
+    incertidumbre_a = incertidumbre_A(quantities)
