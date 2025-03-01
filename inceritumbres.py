@@ -33,3 +33,7 @@ def sum_total_divided_by_n_minus_1(quantities):
 
 def standard_deviation(quantities):
     return (sum_total_divided_by_n_minus_1(quantities) ** 0.5)
+
+def incertidumbre_A(quantities):
+    incertidumbre = standard_deviation(quantities) / (len(quantities) ** 0.5)
+    return(round(incertidumbre, 2))
