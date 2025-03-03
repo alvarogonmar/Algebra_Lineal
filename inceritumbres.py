@@ -43,14 +43,14 @@ def standard_deviation(quantities):
 
 def incertidumbre_A(quantities):
     incertidumbre = standard_deviation(quantities) / (len(quantities) ** 0.5)
-    return(round(incertidumbre, 2))
+    return((incertidumbre))
 
 def incertidumbre_B():
     print("Por favor introduzca el error")
     incertidumbre = float(input())
     error = incertidumbre / 2
     incertidumbre = error / (3 ** 0.5)
-    return(round(incertidumbre, 2))
+    return((incertidumbre))
 
 def incertidumbre_estandar(quantities, incertidumbre_b):
     incertidumbre_a = incertidumbre_A(quantities)
