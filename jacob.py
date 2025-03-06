@@ -27,3 +27,7 @@ def is_diagonally_dominant(A):
 # Pedir al usuario el número de ecuaciones
 print("Por favor introduzca el número de ecuaciones:")
 n = int(input())
+
+# Inicializar la matriz A y el vector b
+A = np.zeros((n, n))
+b = np.zeros(n)
