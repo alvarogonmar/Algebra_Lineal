@@ -25,3 +25,5 @@ def is_diagonally_dominant(A):
     return True
 
 # Pedir al usuario el número de ecuaciones
+print("Por favor introduzca el número de ecuaciones:")
+n = int(input())
