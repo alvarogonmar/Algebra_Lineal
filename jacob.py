@@ -6,3 +6,4 @@ def jacobi(A, b, x0, tol, max_iterations):
     x_new = np.zeros_like(x0)
 
     for k in range(max_iterations):
+        for i in range(n):
