@@ -19,3 +19,4 @@ def jacobi(A, b, x0, tol, max_iterations):
 def is_diagonally_dominant(A):
     n = len(A)
     for i in range(n):
+        sum_row = sum(abs(A[i][j]) for j in range(n) if j != i)
