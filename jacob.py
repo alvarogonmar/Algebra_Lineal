@@ -23,3 +23,5 @@ def is_diagonally_dominant(A):
         if abs(A[i][i]) <= sum_row:
             return False
     return True
+
+# Pedir al usuario el número de ecuaciones
