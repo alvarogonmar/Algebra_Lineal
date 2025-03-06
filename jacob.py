@@ -12,3 +12,5 @@ def jacobi(A, b, x0, tol, max_iterations):
 
         if np.linalg.norm(x_new - x, ord=np.inf) < tol:
             return x_new, k
+
+        x = x_new.copy()
