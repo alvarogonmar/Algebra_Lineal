@@ -14,3 +14,4 @@ def jacobi(A, b, x0, tol, max_iterations):
             return x_new, k
 
         x = x_new.copy()
+    return x, max_iterations
