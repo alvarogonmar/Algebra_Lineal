@@ -7,3 +7,4 @@ def jacobi(A, b, x0, tol, max_iterations):
 
     for k in range(max_iterations):
         for i in range(n):
+            s = sum(A[i][j] * x[j] for j in range(n) if j != i)
