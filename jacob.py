@@ -31,3 +31,6 @@ n = int(input())
 # Inicializar la matriz A y el vector b
 A = np.zeros((n, n))
 b = np.zeros(n)
+
+# Pedir al usuario los coeficientes de la matriz A y el vector b
+print("Por favor introduzca los coeficientes de la matriz A y el vector b:")
