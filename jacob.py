@@ -47,3 +47,6 @@ else:
     x0 = np.zeros_like(b)
     tol = 0.01  # Tolerancia para detener el programa cuando el error sea menor que 0.01
     max_iterations = 500  # Número máximo de iteraciones
+
+    # Resolver el sistema usando el método de Jacobi
+    solution, iterations = jacobi(A, b, x0, tol, max_iterations)
