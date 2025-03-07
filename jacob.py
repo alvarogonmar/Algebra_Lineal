@@ -42,3 +42,6 @@ for i in range(n):
 # Verificar si la matriz A es diagonalmente dominante
 if not is_diagonally_dominant(A):
     print("La matriz no es diagonalmente dominante. El método de Jacobi puede no converger y no tiene una solución única.")
+else:
+    # Vector inicial x0, tolerancia y número máximo de iteraciones
+    x0 = np.zeros_like(b)
