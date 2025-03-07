@@ -51,3 +51,4 @@ else:
     # Resolver el sistema usando el método de Jacobi
     solution, iterations = jacobi(A, b, x0, tol, max_iterations)
     print("Solution:", solution)
+    print("Iterations:", iterations)
