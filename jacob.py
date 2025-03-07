@@ -45,3 +45,4 @@ if not is_diagonally_dominant(A):
 else:
     # Vector inicial x0, tolerancia y número máximo de iteraciones
     x0 = np.zeros_like(b)
+    tol = 0.01  # Tolerancia para detener el programa cuando el error sea menor que 0.01
