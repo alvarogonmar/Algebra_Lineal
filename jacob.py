@@ -37,4 +37,7 @@ print("Por favor introduzca los coeficientes de la matriz A y el vector b:")
 for i in range(n):
     for j in range(n):
         A[i, j] = float(input(f"A[{i+1}][{j+1}] = "))
-    b[i] = float(input(f"b[{i+1}] = "))
+    b[i] = float(input(f"b[{i+1}] = "))\
+    
+# Verificar si la matriz A es diagonalmente dominante
+if not is_diagonally_dominant(A):
