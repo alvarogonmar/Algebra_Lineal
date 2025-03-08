@@ -10,3 +10,6 @@ def gauss_seidel(A, b, x0, tol, max_iterations):
             s1 = sum(A[i][j] * x_new[j] for j in range(i))
             s2 = sum(A[i][j] * x[j] for j in range(i + 1, n))
             x_new[i] = (b[i] - s1 - s2) / A[i][i]
+
+        # Calculate the error index
+        error = np.abs(1 - np.linalg.norm(x) / np.linalg.norm(x_new))
