@@ -24,31 +24,31 @@ def is_diagonally_dominant(A):
             return False
     return True
 
-# Pedir al usuario el número de ecuaciones
-print("Por favor introduzca el número de ecuaciones:")
+# Ask the user for the number of equations
+print("Please enter the number of equations:")
 n = int(input())
 
-# Inicializar la matriz A y el vector b
+# Initialize the matrix A and the vector b
 A = np.zeros((n, n))
 b = np.zeros(n)
 
-# Pedir al usuario los coeficientes de la matriz A y el vector b
-print("Por favor introduzca los coeficientes de la matriz A y el vector b:")
+# Ask the user for the coefficients of the matrix A and the vector b
+print("Please enter the coefficients of the matrix A and the vector b:")
 for i in range(n):
     for j in range(n):
         A[i, j] = float(input(f"A[{i+1}][{j+1}] = "))
-    b[i] = float(input(f"b[{i+1}] = "))\
-    
-# Verificar si la matriz A es diagonalmente dominante
-if not is_diagonally_dominant(A):
-    print("La matriz no es diagonalmente dominante. El método de Jacobi puede no converger y no tiene una solución única.")
-else:
-    # Vector inicial x0, tolerancia y número máximo de iteraciones
-    x0 = np.zeros_like(b)
-    tol = 0.01  # Tolerancia para detener el programa cuando el error sea menor que 0.01
-    max_iterations = 500  # Número máximo de iteraciones
+    b[i] = float(input(f"b[{i+1}] = "))
 
-    # Resolver el sistema usando el método de Jacobi
+# Check if the matrix A is diagonally dominant
+if not is_diagonally_dominant(A):
+    print("The matrix is not diagonally dominant. The Jacobi method may not converge and may not have a unique solution.")
+else:
+    # Initial guess x0, tolerance, and maximum number of iterations
+    x0 = np.zeros_like(b)
+    tol = 0.01  # Tolerance to stop the program when the error is less than 0.01
+    max_iterations = 500  # Maximum number of iterations
+
+    # Solve the system using the Jacobi method
     solution, iterations = jacobi(A, b, x0, tol, max_iterations)
     print("Solution:", solution)
     print("Iterations:", iterations)
