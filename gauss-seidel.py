@@ -6,3 +6,4 @@ def gauss_seidel(A, b, x0, tol, max_iterations):
 
     for k in range(max_iterations):
         x_new = np.copy(x)
+        for i in range(n):
