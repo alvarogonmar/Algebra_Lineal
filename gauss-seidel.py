@@ -13,3 +13,4 @@ def gauss_seidel(A, b, x0, tol, max_iterations):
 
         # Calculate the error index
         error = np.abs(1 - np.linalg.norm(x) / np.linalg.norm(x_new))
+        if error < tol:
