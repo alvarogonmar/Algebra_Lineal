@@ -17,3 +17,4 @@ def gauss_seidel(A, b, x0, tol, max_iterations):
             return x_new, k
 
         x = x_new
+    return x, max_iterations
