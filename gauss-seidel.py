@@ -26,3 +26,6 @@ def is_diagonally_dominant(A):
         if abs(A[i][i]) <= sum_row:
             return False
     return True
+
+# Prompt the user for the number of equations
+print("Please enter the number of equations:")
