@@ -24,3 +24,4 @@ def is_diagonally_dominant(A):
     for i in range(n):
         sum_row = sum(abs(A[i][j]) for j in range(n) if j != i)
         if abs(A[i][i]) <= sum_row:
+            return False
