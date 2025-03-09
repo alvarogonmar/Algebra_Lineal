@@ -18,3 +18,5 @@ def gauss_seidel(A, b, x0, tol, max_iterations):
 
         x = x_new
     return x, max_iterations
+
+def is_diagonally_dominant(A):
