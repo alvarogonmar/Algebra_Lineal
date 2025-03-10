@@ -39,3 +39,4 @@ b = np.zeros(n)
 print("Please enter the coefficients of the matrix A and the vector b:")
 for i in range(n):
     for j in range(n):
+        A[i, j] = float(input(f"A[{i+1}][{j+1}] = "))
