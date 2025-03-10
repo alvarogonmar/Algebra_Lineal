@@ -41,3 +41,6 @@ for i in range(n):
     for j in range(n):
         A[i, j] = float(input(f"A[{i+1}][{j+1}] = "))
     b[i] = float(input(f"b[{i+1}] = "))
+
+# Check if the matrix A is diagonally dominant
+if not is_diagonally_dominant(A):
