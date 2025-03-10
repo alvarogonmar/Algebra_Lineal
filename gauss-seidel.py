@@ -45,3 +45,6 @@ for i in range(n):
 # Check if the matrix A is diagonally dominant
 if not is_diagonally_dominant(A):
     print("The matrix is not diagonally dominant. The Gauss-Seidel method may not converge and may not have a unique solution.")
+else:
+    # Initial guess x0, tolerance, and maximum number of iterations
+    x0 = np.zeros_like(b)
