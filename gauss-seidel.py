@@ -48,3 +48,4 @@ if not is_diagonally_dominant(A):
 else:
     # Initial guess x0, tolerance, and maximum number of iterations
     x0 = np.zeros_like(b)
+    tol = 1e-5  # Tolerance to stop the program when the error is less than 10^-5
