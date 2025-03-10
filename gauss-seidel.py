@@ -33,3 +33,4 @@ n = int(input())
 
 # Initialize the matrix A and vector b
 A = np.zeros((n, n))
+b = np.zeros(n)
