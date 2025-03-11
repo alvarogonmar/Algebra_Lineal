@@ -54,3 +54,4 @@ else:
     # Solve the system using the Gauss-Seidel method
     solution, iterations = gauss_seidel(A, b, x0, tol, max_iterations)
     print("Solution:", solution)
+    print("Iterations:", iterations)
