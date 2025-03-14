@@ -42,14 +42,14 @@ for i in range(n):
 
 # Check if the matrix A is diagonally dominant
 if not is_diagonally_dominant(A):
-    print("The matrix is not diagonally dominant. The Gauss-Seidel method may not converge and may not have a unique solution.")
+    print("The matrix is not diagonally dominant. The Gauss Seidel method may not have a unique solution.")
 else:
     # Initial guess x0, tolerance, and maximum number of iterations
     x0 = np.zeros_like(b)
-    tol = 1e-5  # Tolerance to stop the program when the error is less than 10^-5
-    max_iterations = 500  # Maximum number of iterations
+    tol = 1e-5  # Tolerance
+    max_iterations = 500  #iterations
 
-    # Solve the system using the Gauss-Seidel method
+    #Gauss Seidel method
     solution, iterations = gauss_seidel(A, b, x0, tol, max_iterations)
     print("Solution:", solution)
     print("Iterations:", iterations)
