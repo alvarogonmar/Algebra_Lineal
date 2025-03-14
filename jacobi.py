@@ -24,7 +24,6 @@ def is_diagonally_dominant(A):
             return False
     return True
 
-# Ask the user for the number of equations
 print("Please enter the number of equations:")
 n = int(input())
 
@@ -43,12 +42,11 @@ for i in range(n):
 if not is_diagonally_dominant(A):
     print("The matrix is not diagonally dominant. The Jacobi method may not converge and may not have a unique solution.")
 else:
-    # Initial guess x0, tolerance, and maximum number of iterations
     x0 = np.zeros_like(b)
-    tol = 0.01  # Tolerance to stop the program when the error is less than 0.01
+    tol = 0.01  # Tolerance
     max_iterations = 500  # Maximum number of iterations
 
-    # Solve the system using the Jacobi method
+    #Jacobi method
     solution, iterations = jacobi(A, b, x0, tol, max_iterations)
     print("Solution:", solution)
     print("Iterations:", iterations)
