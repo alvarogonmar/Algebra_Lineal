@@ -34,7 +34,6 @@ n = int(input())
 A = np.zeros((n, n))
 b = np.zeros(n)
 
-# Prompt the user for the coefficients of the matrix A and vector b
 print("Please enter the coefficients of the matrix A and the vector b:")
 for i in range(n):
     for j in range(n):
